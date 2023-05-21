@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+hr{
+  border: 1px solid #EAEAEA;
+}
+button{
+  cursor: pointer;
+  outline: none;
+}
+input{
+  outline: none;
+}

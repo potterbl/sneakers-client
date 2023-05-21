@@ -1,0 +1,93 @@
+.login{
+    width: 100%;
+    height: calc(100vh - 170px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-inner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    row-gap: 45px;
+}
+.google{
+    width: 250px;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid black;
+    font-size: 16px;
+    padding-left: 40px;
+    background-image: url('../images/google.png');
+    background-position: 10px center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+.google:hover{
+    background-color: #f3f3f3;
+}
+.login-form{
+    display: grid;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.login-form input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.login-form button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+.login-form button:hover{
+    background-color: #f3f3f3;
+}
+.login-form p{
+    font-size: 12px;
+    color: #9a9a9a;
+    cursor: pointer;
+    width: max-content;
+}
+.register-form{
+    display: grid;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.register-form input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.register-form button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+.register-form button:hover{
+    background-color: #f3f3f3;
+}
+.register-form p{
+    font-size: 12px;
+    color: #9a9a9a;
+    cursor: pointer;
+    width: max-content;
+}

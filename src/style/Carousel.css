@@ -1,0 +1,48 @@
+.carousel-wrapper{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #F4EFE9;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.carousel-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.carousel-text span{
+    color: #8BB43C;
+}
+.carousel-text button{
+    width: 177px;
+    height: 47px;
+    background: #A5D364;
+    border-radius: 110px;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+}
+.carousel-cermit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-cermit img{
+    object-fit: contain;
+}
+.carousel-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-image img{
+    width: 70%;
+}
